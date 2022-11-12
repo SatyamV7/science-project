@@ -55,7 +55,7 @@ div.header {
 div.header p {
     top: 15%;
     font-size: 100px;
-    color: #3f51b5;
+    color: #ff5722;
     position: absolute;
     font-family: SPOTNIK;
     font-weight: 900;
@@ -85,7 +85,7 @@ div.topic-heading:before {
 
 div.topic-content {
     display: flex;
-    font-size: 27px;
+    font-size: 28px;
     color: #4caf50;
 }
 
@@ -93,6 +93,7 @@ div.topic-text {
     width: 75%;
     margin-top: 20px;
     line-height: 35px;
+    text-align: justify;
 }
 
 div.topic-image {
@@ -102,7 +103,7 @@ div.topic-image {
 
 div.topic-image img {
     height: 300px;
-    margin-left: 50px;
+    margin-left: 75px;
     border-radius: 50px;
     filter: brightness(150%) saturate(100%) invert(0%) grayscale(0%);
 }
