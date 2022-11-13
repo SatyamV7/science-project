@@ -84,7 +84,6 @@ div.topic-heading:before {
 }
 
 div.topic-content {
-    display: flex;
     font-size: 28px;
     color: #4caf50;
     display: flex;
