@@ -1,7 +1,8 @@
 import './Script';
 import './App.css';
-import header from './assets/header.jpg';
-import atom_structure from './assets/atom_structure.png';
+import './assets/fonts/fonts.css';
+import header from './assets/images/header.jpg';
+import atom_structure from './assets/images/atom_structure.png';
 
 function App() {
     return (
