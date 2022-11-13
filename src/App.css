@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Berlin Sans FB;
+    transition: bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);
 }
 
 html {
@@ -48,6 +49,7 @@ div#root {
 }
 
 div.header {
+    width: 100%;
     display: flex;
     justify-content: center;
     background: #49cdcf;
