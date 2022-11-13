@@ -2,6 +2,7 @@ import './Script';
 import './App.css';
 import './assets/fonts/fonts.css';
 import header from './assets/images/header.jpg';
+import pic2 from './assets/images/Picture2.png';
 import atom_structure from './assets/images/atom_structure.png';
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
                             and alter the tension to produce different pitches. The space between the vocal fold is called
                             glottis. Different sound can be made by varying opening and closing of the glottis. Our mouth,
                             tongue teeth, lips and nasal cavity also helps us to alter sound. This helps us to make basic sound.
+                        </div>
+                        <div className="topic-image">
+                            <img alt="atom" src={pic2} />
                         </div>
                     </div>
                 </div>
