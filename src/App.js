@@ -3,7 +3,7 @@ import './App.css';
 import './assets/fonts/fonts.css';
 import header from './assets/images/header.jpg';
 import pic2 from './assets/images/Picture2.png';
-import pic3 from './assets/images/Picture3.png';
+import pic3 from './assets/images/Picture3.jpg';
 import pic4 from './assets/images/Picture4.png';
 import atom_structure from './assets/images/atom_structure.png';
 
@@ -37,17 +37,17 @@ return (
                 <div className="topic-text" style={{ width: '97.5%' }}>Sound is associated with vibrational or
                     oscillatory motion. The to-and-fro motion of an object is called vibration. Vibrations produce
                     various forms of energy, one of them is sound. Various objects vibrate in to produce sound. You know
-                    that there are a variety of musical instruments producing different type of sounds Musical
-                    instruments are the instruments that produce sound. Which part of the tabla, guitar or flute
-                    vibrates? In a tabla, the two membranes vibrate and produce sound, whereas h case of a guitar, the
+                    that there are a variety of musical instruments producing different type of sounds. Which part of
+                    the tabla, guitar or flute
+                    vibrates? In a tabla, the two membranes vibrate and produce sound, whereas in case of a guitar, the
                     strings vibrate. In a flute, the air column vibrates, producing sound. In humans sound is produced
                     by an organ called larynx (commonly called voice box). When we speak, air rushes out of our lungs to
-                    larynx via windpipe. Larynx is located at top end of the windpipe. On the top of the larynx there
+                    larynx via windpipe. Larynx is located at top end of the windpipe. On the top of larynx there
                     are two membranes called vocal folds (commonly called vocal cords), which begins to vibrate when of
                     air rushes in from below. There are muscles in the larynx that lengthen and shorten the vocal cords
                     and alter the tension to produce different pitches. The space between the vocal fold is called
                     glottis. Different sound can be made by varying opening and closing of the glottis. Our mouth,
-                    tongue teeth, lips and nasal cavity also helps us to alter sound. This helps us to make basic sound.
+                    tongue teeth, lips and nasal cavity also helps us to make sound. This helps us to make basic sound.
                 </div>
                 <div className="topic-image">
                     <img alt="atom" src={pic2} />
@@ -83,10 +83,119 @@ return (
             <div className="topic-heading">Sound needs a medium to travel</div>
             <br />
             <div className="topic-content">
-                <div className="topic-text" style={{ width: '97.5%' }}>Sound can travel in all three mediums (solid, liquid and gases). It cannot travel in vacuum. This is because sound travels by producing a vibration in the molecules of the medium surrounding it and there are no molecules in vacuum. Two astronauts in outer space can see each other in space but cannot hear each other. This is because sound requires a medium to travel as vibrations can be transferred from one particle to another only in a medium. Hence, sound waves cannot travel in vacuum. Thus, we can say that sound needs a medium to travel.
+                <div className="topic-text" style={{ width: '97.5%' }}>Sound can travel in all three mediums (solid,
+                    liquid and gases). It cannot travel in vacuum. This is because sound travels by producing a
+                    vibration in the molecules of the medium surrounding it and there are no molecules in vacuum. Two
+                    astronauts in outer space can see each other in space but cannot hear each other. This is because
+                    sound requires a medium to travel as vibrations can be transferred from one particle to another only
+                    in a medium. Hence, sound waves cannot travel in vacuum. Thus, we can say that sound needs a medium
+                    to travel.
                 </div>
                 <div className="topic-image">
                     <img alt="atom" src={pic4} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="TopicMain">
+        <div className="topic">
+            <div className="topic-heading">Speed of sound</div>
+            <br />
+            <div className="topic-content">
+                <div className="topic-text" style={{ width: '97.5%' }}>The speed of sound is defined as the distance
+                    through which a sound wave’s point, such as a compression or a rarefaction, travels per unit of
+                    time. The speed of sound remains the same for all frequencies in a given medium under the same
+                    physical conditions.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="TopicMain">
+        <div className="topic">
+            <div className="topic-heading">Factors affecting the speed of sound</div>
+            <br />
+            <div className="topic-content">
+                <div className="topic-text" style={{ width: '97.5%' }}>Density and temperature of the medium in which
+                    the sound wave travels affect the speed of sound.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="TopicMain">
+        <div className="topic">
+            <div className="topic-heading">Density of the Medium</div>
+            <br />
+            <div className="topic-content">
+                <div className="topic-text" style={{ width: '97.5%' }}>When the medium is dense, the molecules in the
+                    medium are closely packed, which means that the sound travels faster. Therefore, the speed of sound
+                    increases as the density of the medium increases.
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="TopicMain">
+        <div className="topic">
+            <div className="topic-heading">Temperature of the Medium</div>
+            <br />
+            <div className="topic-content">
+                <div className="topic-text" style={{ width: '97.5%' }}>The speed of sound is directly proportional to
+                    the temperature. Therefore, as the temperature increases, the speed of sound increases.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="TopicMain">
+        <div className="topic">
+            <div className="topic-heading">Speed of sound in different mediums</div>
+            <br />
+            <div className="topic-content">
+                <div className="topic-text" style={{ width: '97.5%' }}>The speed of the sound depends on the density and
+                    the elasticity of the medium through which it travels. In general, sound travels faster in liquids
+                    than in gases and quicker in solids than in liquids. The greater the elasticity and the lower the
+                    density, the faster sound travels in a medium.
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="TopicMain">
+        <div className="topic">
+            <div className="topic-heading">Speed of sound in solids</div>
+            <br />
+            <div className="topic-content">
+                <div className="topic-text" style={{ width: '97.5%' }}>Sound is nothing more than a disturbance
+                    propagated by the collisions between the particles, one molecule hitting the next and so forth.
+                    Solids are significantly denser than liquids or gases, and this means that the molecules are closer
+                    to each other in solids than in liquids and liquids than in gases. This closeness due to density
+                    means that they can collide very quickly. Effectively it takes less time for a molecule of a solid
+                    to bump into its neighbouring molecule. Due to this advantage, the velocity of sound in a solid is
+                    faster than in a gas.
+                    The speed of sound in solid is 6000 metres per second, while the speed of sound in steel is equal to
+                    5100 metres per second. Another interesting fact about the speed of sound is that sound travels 35
+                    times faster in diamonds than in the air.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="TopicMain">
+        <div className="topic">
+            <div className="topic-heading">Speed of sound in liquids</div>
+            <br />
+            <div className="topic-content">
+                <div className="topic-text" style={{ width: '97.5%' }}>Similarly, the density of a liquid is greater than the density of a gas. Therefore, the distances between molecules are more in liquids than in solids but are less than in gases. Hence the speed of sound in liquids lies in between the speed of sound in solids and gases.
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="TopicMain">
+        <div className="topic">
+            <div className="topic-heading">Speed of sound in gases</div>
+            <br />
+            <div className="topic-content">
+                <div className="topic-text" style={{ width: '97.5%' }}>We should remember that the speed of sound is independent of the density of the medium when it enters a liquid or solid. Since gases expand to fill the given space, density is relatively uniform irrespective of gas type, which isn’t the case with solids and liquids. The velocity of sound in gases is proportional to the square root of the absolute temperature (measured in Kelvin). Still, it is independent of the frequency of the sound wave or the pressure and the density of the medium. But none of the gases we find in real life is ideal gases, and this causes the properties to change slightly. The velocity of sound in air at 20oC is 343.2 m/s which translates to 1,236 km/h.
+
                 </div>
             </div>
         </div>
